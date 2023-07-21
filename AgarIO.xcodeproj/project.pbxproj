@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A699403D2A64F08000BAAE8B /* Movable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699401A2A64F08000BAAE8B /* Movable.swift */; };
+		A699403E2A64F08000BAAE8B /* BallEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699401B2A64F08000BAAE8B /* BallEntity.swift */; };
+		A699403F2A64F08000BAAE8B /* BallEntity+Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699401C2A64F08000BAAE8B /* BallEntity+Collision.swift */; };
+		A69940412A64F08000BAAE8B /* BallCollisionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699401E2A64F08000BAAE8B /* BallCollisionDelegate.swift */; };
+		A69940422A64F08000BAAE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699401F2A64F08000BAAE8B /* AppDelegate.swift */; };
+		A69940432A64F08000BAAE8B /* ARObjectDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940212A64F08000BAAE8B /* ARObjectDelegate.swift */; };
+		A69940452A64F08000BAAE8B /* Feeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940232A64F08000BAAE8B /* Feeds.swift */; };
+		A69940462A64F08000BAAE8B /* MyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940242A64F08000BAAE8B /* MyBall.swift */; };
+		A69940482A64F08000BAAE8B /* MoveButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940272A64F08000BAAE8B /* MoveButtons.swift */; };
+		A69940492A64F08000BAAE8B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940282A64F08000BAAE8B /* Config.swift */; };
+		A699404A2A64F08000BAAE8B /* MoveButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940292A64F08000BAAE8B /* MoveButtonState.swift */; };
+		A699404B2A64F08000BAAE8B /* AgarioViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699402B2A64F08000BAAE8B /* AgarioViewContainer.swift */; };
+		A699404D2A64F08000BAAE8B /* MoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699402E2A64F08000BAAE8B /* MoveButton.swift */; };
+		A699404E2A64F08000BAAE8B /* JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699402F2A64F08000BAAE8B /* JoyStick.swift */; };
+		A69940502A64F08000BAAE8B /* AgarioView+ARObjectManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940322A64F08000BAAE8B /* AgarioView+ARObjectManage.swift */; };
+		A69940512A64F08000BAAE8B /* AgarioView+ControlMyBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940332A64F08000BAAE8B /* AgarioView+ControlMyBall.swift */; };
+		A69940522A64F08000BAAE8B /* AgarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940342A64F08000BAAE8B /* AgarioView.swift */; };
+		A69940542A64F08000BAAE8B /* AgarioView+Collision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940362A64F08000BAAE8B /* AgarioView+Collision.swift */; };
+		A69940562A64F08000BAAE8B /* CollaborativeSession+Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940392A64F08000BAAE8B /* CollaborativeSession+Browser.swift */; };
+		A69940572A64F08000BAAE8B /* CollaborativeSession+Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699403A2A64F08000BAAE8B /* CollaborativeSession+Advertiser.swift */; };
+		A69940582A64F08000BAAE8B /* CollaborativeSession+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699403B2A64F08000BAAE8B /* CollaborativeSession+Delegate.swift */; };
+		A69940592A64F08000BAAE8B /* CollaborativeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699403C2A64F08000BAAE8B /* CollaborativeSession.swift */; };
+		A699405D2A67176600BAAE8B /* BallEntity+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699405C2A67176600BAAE8B /* BallEntity+Resize.swift */; };
+		A699405F2A68AB4B00BAAE8B /* JoinGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699405E2A68AB4B00BAAE8B /* JoinGameView.swift */; };
+		A69940612A68AB5600BAAE8B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940602A68AB5600BAAE8B /* GameView.swift */; };
+		A69940652A68C67300BAAE8B /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940642A68C67300BAAE8B /* GameState.swift */; };
+		A69940672A68C68300BAAE8B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940662A68C68300BAAE8B /* Player.swift */; };
+		A69940692A68DE8700BAAE8B /* CollaborativeSession+DataInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69940682A68DE8700BAAE8B /* CollaborativeSession+DataInteraction.swift */; };
+		A699406B2A68E6CA00BAAE8B /* GameStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699406A2A68E6CA00BAAE8B /* GameStateManager.swift */; };
+		A699406F2A68E94100BAAE8B /* GameStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A699406E2A68E94100BAAE8B /* GameStateView.swift */; };
+		A6A89A002A5D8D17005A4DD1 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = A6A899FF2A5D8D17005A4DD1 /* Experience.rcproject */; };
+		A6A89A022A5D8D17005A4DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A89A012A5D8D17005A4DD1 /* Assets.xcassets */; };
+		A6A89A052A5D8D17005A4DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A89A042A5D8D17005A4DD1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A699401A2A64F08000BAAE8B /* Movable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movable.swift; sourceTree = "<group>"; };
+		A699401B2A64F08000BAAE8B /* BallEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallEntity.swift; sourceTree = "<group>"; };
+		A699401C2A64F08000BAAE8B /* BallEntity+Collision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BallEntity+Collision.swift"; sourceTree = "<group>"; };
+		A699401E2A64F08000BAAE8B /* BallCollisionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallCollisionDelegate.swift; sourceTree = "<group>"; };
+		A699401F2A64F08000BAAE8B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A69940212A64F08000BAAE8B /* ARObjectDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARObjectDelegate.swift; sourceTree = "<group>"; };
+		A69940232A64F08000BAAE8B /* Feeds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feeds.swift; sourceTree = "<group>"; };
+		A69940242A64F08000BAAE8B /* MyBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBall.swift; sourceTree = "<group>"; };
+		A69940272A64F08000BAAE8B /* MoveButtons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButtons.swift; sourceTree = "<group>"; };
+		A69940282A64F08000BAAE8B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A69940292A64F08000BAAE8B /* MoveButtonState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButtonState.swift; sourceTree = "<group>"; };
+		A699402B2A64F08000BAAE8B /* AgarioViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgarioViewContainer.swift; sourceTree = "<group>"; };
+		A699402E2A64F08000BAAE8B /* MoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButton.swift; sourceTree = "<group>"; };
+		A699402F2A64F08000BAAE8B /* JoyStick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyStick.swift; sourceTree = "<group>"; };
+		A69940322A64F08000BAAE8B /* AgarioView+ARObjectManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgarioView+ARObjectManage.swift"; sourceTree = "<group>"; };
+		A69940332A64F08000BAAE8B /* AgarioView+ControlMyBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgarioView+ControlMyBall.swift"; sourceTree = "<group>"; };
+		A69940342A64F08000BAAE8B /* AgarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgarioView.swift; sourceTree = "<group>"; };
+		A69940362A64F08000BAAE8B /* AgarioView+Collision.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AgarioView+Collision.swift"; sourceTree = "<group>"; };
+		A69940392A64F08000BAAE8B /* CollaborativeSession+Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollaborativeSession+Browser.swift"; sourceTree = "<group>"; };
+		A699403A2A64F08000BAAE8B /* CollaborativeSession+Advertiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollaborativeSession+Advertiser.swift"; sourceTree = "<group>"; };
+		A699403B2A64F08000BAAE8B /* CollaborativeSession+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollaborativeSession+Delegate.swift"; sourceTree = "<group>"; };
+		A699403C2A64F08000BAAE8B /* CollaborativeSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollaborativeSession.swift; sourceTree = "<group>"; };
+		A699405C2A67176600BAAE8B /* BallEntity+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BallEntity+Resize.swift"; sourceTree = "<group>"; };
+		A699405E2A68AB4B00BAAE8B /* JoinGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGameView.swift; sourceTree = "<group>"; };
+		A69940602A68AB5600BAAE8B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A69940642A68C67300BAAE8B /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		A69940662A68C68300BAAE8B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A69940682A68DE8700BAAE8B /* CollaborativeSession+DataInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollaborativeSession+DataInteraction.swift"; sourceTree = "<group>"; };
+		A699406A2A68E6CA00BAAE8B /* GameStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateManager.swift; sourceTree = "<group>"; };
+		A699406E2A68E94100BAAE8B /* GameStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateView.swift; sourceTree = "<group>"; };
+		A6A899F82A5D8D17005A4DD1 /* AgarIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgarIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6A899FF2A5D8D17005A4DD1 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		A6A89A012A5D8D17005A4DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6A89A042A5D8D17005A4DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6D66C6D2A64EFC900AD9725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6A899F52A5D8D17005A4DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A69940192A64F08000BAAE8B /* BallEntity */ = {
+			isa = PBXGroup;
+			children = (
+				A699401A2A64F08000BAAE8B /* Movable.swift */,
+				A699401B2A64F08000BAAE8B /* BallEntity.swift */,
+				A699401C2A64F08000BAAE8B /* BallEntity+Collision.swift */,
+				A699405C2A67176600BAAE8B /* BallEntity+Resize.swift */,
+				A699401E2A64F08000BAAE8B /* BallCollisionDelegate.swift */,
+			);
+			path = BallEntity;
+			sourceTree = "<group>";
+		};
+		A69940202A64F08000BAAE8B /* ARObjectManager */ = {
+			isa = PBXGroup;
+			children = (
+				A69940212A64F08000BAAE8B /* ARObjectDelegate.swift */,
+				A69940242A64F08000BAAE8B /* MyBall.swift */,
+				A69940232A64F08000BAAE8B /* Feeds.swift */,
+			);
+			path = ARObjectManager;
+			sourceTree = "<group>";
+		};
+		A69940252A64F08000BAAE8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A69940282A64F08000BAAE8B /* Config.swift */,
+				A69940642A68C67300BAAE8B /* GameState.swift */,
+				A69940272A64F08000BAAE8B /* MoveButtons.swift */,
+				A69940292A64F08000BAAE8B /* MoveButtonState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A699402A2A64F08000BAAE8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A699405E2A68AB4B00BAAE8B /* JoinGameView.swift */,
+				A69940622A68AB6900BAAE8B /* GameView */,
+				A69940312A64F08000BAAE8B /* AgarioView */,
+				A699402D2A64F08000BAAE8B /* JoyStick */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A699402D2A64F08000BAAE8B /* JoyStick */ = {
+			isa = PBXGroup;
+			children = (
+				A699402E2A64F08000BAAE8B /* MoveButton.swift */,
+				A699402F2A64F08000BAAE8B /* JoyStick.swift */,
+			);
+			path = JoyStick;
+			sourceTree = "<group>";
+		};
+		A69940312A64F08000BAAE8B /* AgarioView */ = {
+			isa = PBXGroup;
+			children = (
+				A69940342A64F08000BAAE8B /* AgarioView.swift */,
+				A69940322A64F08000BAAE8B /* AgarioView+ARObjectManage.swift */,
+				A69940332A64F08000BAAE8B /* AgarioView+ControlMyBall.swift */,
+				A69940362A64F08000BAAE8B /* AgarioView+Collision.swift */,
+			);
+			path = AgarioView;
+			sourceTree = "<group>";
+		};
+		A69940382A64F08000BAAE8B /* CollaborativeGame */ = {
+			isa = PBXGroup;
+			children = (
+				A699403C2A64F08000BAAE8B /* CollaborativeSession.swift */,
+				A69940392A64F08000BAAE8B /* CollaborativeSession+Browser.swift */,
+				A699403A2A64F08000BAAE8B /* CollaborativeSession+Advertiser.swift */,
+				A699403B2A64F08000BAAE8B /* CollaborativeSession+Delegate.swift */,
+				A69940682A68DE8700BAAE8B /* CollaborativeSession+DataInteraction.swift */,
+			);
+			path = CollaborativeGame;
+			sourceTree = "<group>";
+		};
+		A69940622A68AB6900BAAE8B /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				A69940602A68AB5600BAAE8B /* GameView.swift */,
+				A699402B2A64F08000BAAE8B /* AgarioViewContainer.swift */,
+				A699406E2A68E94100BAAE8B /* GameStateView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		A69940632A68C64C00BAAE8B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				A69940662A68C68300BAAE8B /* Player.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		A6A899EF2A5D8D17005A4DD1 = {
+			isa = PBXGroup;
+			children = (
+				A6A899FA2A5D8D17005A4DD1 /* AgarIO */,
+				A6A899F92A5D8D17005A4DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6A899F92A5D8D17005A4DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6A899F82A5D8D17005A4DD1 /* AgarIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A899FA2A5D8D17005A4DD1 /* AgarIO */ = {
+			isa = PBXGroup;
+			children = (
+				A6D66C6D2A64EFC900AD9725 /* Info.plist */,
+				A699401F2A64F08000BAAE8B /* AppDelegate.swift */,
+				A699406A2A68E6CA00BAAE8B /* GameStateManager.swift */,
+				A69940632A68C64C00BAAE8B /* Player */,
+				A69940192A64F08000BAAE8B /* BallEntity */,
+				A69940202A64F08000BAAE8B /* ARObjectManager */,
+				A69940382A64F08000BAAE8B /* CollaborativeGame */,
+				A699402A2A64F08000BAAE8B /* View */,
+				A69940252A64F08000BAAE8B /* Model */,
+				A6A899FF2A5D8D17005A4DD1 /* Experience.rcproject */,
+				A6A89A012A5D8D17005A4DD1 /* Assets.xcassets */,
+				A6A89A032A5D8D17005A4DD1 /* Preview Content */,
+			);
+			path = AgarIO;
+			sourceTree = "<group>";
+		};
+		A6A89A032A5D8D17005A4DD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6A89A042A5D8D17005A4DD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6A899F72A5D8D17005A4DD1 /* AgarIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6A89A082A5D8D17005A4DD1 /* Build configuration list for PBXNativeTarget "AgarIO" */;
+			buildPhases = (
+				A6A899F42A5D8D17005A4DD1 /* Sources */,
+				A6A899F52A5D8D17005A4DD1 /* Frameworks */,
+				A6A899F62A5D8D17005A4DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgarIO;
+			productName = AgarIO;
+			productReference = A6A899F82A5D8D17005A4DD1 /* AgarIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6A899F02A5D8D17005A4DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A6A899F72A5D8D17005A4DD1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A6A899F32A5D8D17005A4DD1 /* Build configuration list for PBXProject "AgarIO" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6A899EF2A5D8D17005A4DD1;
+			productRefGroup = A6A899F92A5D8D17005A4DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6A899F72A5D8D17005A4DD1 /* AgarIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6A899F62A5D8D17005A4DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6A89A052A5D8D17005A4DD1 /* Preview Assets.xcassets in Resources */,
+				A6A89A022A5D8D17005A4DD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6A899F42A5D8D17005A4DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69940482A64F08000BAAE8B /* MoveButtons.swift in Sources */,
+				A699403F2A64F08000BAAE8B /* BallEntity+Collision.swift in Sources */,
+				A699403E2A64F08000BAAE8B /* BallEntity.swift in Sources */,
+				A69940612A68AB5600BAAE8B /* GameView.swift in Sources */,
+				A699406F2A68E94100BAAE8B /* GameStateView.swift in Sources */,
+				A699405F2A68AB4B00BAAE8B /* JoinGameView.swift in Sources */,
+				A69940492A64F08000BAAE8B /* Config.swift in Sources */,
+				A699404B2A64F08000BAAE8B /* AgarioViewContainer.swift in Sources */,
+				A699404E2A64F08000BAAE8B /* JoyStick.swift in Sources */,
+				A699403D2A64F08000BAAE8B /* Movable.swift in Sources */,
+				A69940652A68C67300BAAE8B /* GameState.swift in Sources */,
+				A69940582A64F08000BAAE8B /* CollaborativeSession+Delegate.swift in Sources */,
+				A69940572A64F08000BAAE8B /* CollaborativeSession+Advertiser.swift in Sources */,
+				A69940672A68C68300BAAE8B /* Player.swift in Sources */,
+				A69940692A68DE8700BAAE8B /* CollaborativeSession+DataInteraction.swift in Sources */,
+				A69940562A64F08000BAAE8B /* CollaborativeSession+Browser.swift in Sources */,
+				A69940422A64F08000BAAE8B /* AppDelegate.swift in Sources */,
+				A699406B2A68E6CA00BAAE8B /* GameStateManager.swift in Sources */,
+				A69940412A64F08000BAAE8B /* BallCollisionDelegate.swift in Sources */,
+				A69940502A64F08000BAAE8B /* AgarioView+ARObjectManage.swift in Sources */,
+				A69940452A64F08000BAAE8B /* Feeds.swift in Sources */,
+				A69940522A64F08000BAAE8B /* AgarioView.swift in Sources */,
+				A69940542A64F08000BAAE8B /* AgarioView+Collision.swift in Sources */,
+				A699404A2A64F08000BAAE8B /* MoveButtonState.swift in Sources */,
+				A69940592A64F08000BAAE8B /* CollaborativeSession.swift in Sources */,
+				A699404D2A64F08000BAAE8B /* MoveButton.swift in Sources */,
+				A69940432A64F08000BAAE8B /* ARObjectDelegate.swift in Sources */,
+				A69940462A64F08000BAAE8B /* MyBall.swift in Sources */,
+				A69940512A64F08000BAAE8B /* AgarioView+ControlMyBall.swift in Sources */,
+				A6A89A002A5D8D17005A4DD1 /* Experience.rcproject in Sources */,
+				A699405D2A67176600BAAE8B /* BallEntity+Resize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6A89A062A5D8D17005A4DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6A89A072A5D8D17005A4DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6A89A092A5D8D17005A4DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgarIO/Preview Content\"";
+				DEVELOPMENT_TEAM = XLKN85QRCW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgarIO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Use Local Network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JMT.AgarIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6A89A0A2A5D8D17005A4DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AgarIO/Preview Content\"";
+				DEVELOPMENT_TEAM = XLKN85QRCW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AgarIO/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Use Camera";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Use Local Network";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JMT.AgarIO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6A899F32A5D8D17005A4DD1 /* Build configuration list for PBXProject "AgarIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A89A062A5D8D17005A4DD1 /* Debug */,
+				A6A89A072A5D8D17005A4DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6A89A082A5D8D17005A4DD1 /* Build configuration list for PBXNativeTarget "AgarIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A89A092A5D8D17005A4DD1 /* Debug */,
+				A6A89A0A2A5D8D17005A4DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6A899F02A5D8D17005A4DD1 /* Project object */;
+}
